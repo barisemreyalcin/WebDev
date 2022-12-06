@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebDev</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      header,
+      footer {
+        background-color: #9f73ab;
+        color: #fed049;
+        padding: 15px;
+      }
+
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px 15px 15px 0;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        padding: 8px;
+        margin: 13px 0;
+        background-color: #540375;
+        color: white;
+      }
+
+      .menu li:hover {
+        background-color: #9f73ab;
+        cursor: pointer;
+      }
+
+      .content {
+        width: 75%;
+        float: right;
+        padding: 15px;
+      }
+
+      h1 {
+        margin-top: 13px;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Front-end Development</h2>
+    </header>
+    <main class="clearfix">
+      <div class="menu">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>Front-end Web Development Courses</h1>
+        <p>
+          If you want to be a Front-end Developer, you definetely need to know
+          HTML, CSS, and JavaScript. You can create the simple structure of a
+          web page by using HTML. CSS helps us to make our pages look better
+          with many properties of styles. Finally, we add funcionality with
+          JavaScript codes to our pages.
+        </p>
+        <p>
+          After learning these three technologies, you become ready to work on
+          Front-end Developer positions.
+        </p>
+      </div>
+    </main>
+    <footer><h2>All rights are reserved.</h2></footer>
+  </body>
+</html>
